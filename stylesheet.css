@@ -1,0 +1,259 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*SHARED CSS BELOW*/
+
+
+body {
+	color: #333;
+	font-family: Helvetica, Arial, sans-serif;
+	background-image: url("Images/slate-background.jpg");
+	margin: 0 auto;
+}
+a img {
+	border: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #333;
+}
+a:link {
+	color: #333;
+	text-decoration: none
+}
+a:hover, a:active, a:focus {
+	text-decoration: underline
+}
+.headerwrapper {
+	width: 1000px;
+	margin: 0 auto 0 auto;
+}
+.bgdivider {
+	background-image:url("Images/bgdivider.png");
+	height: 27px;
+	
+}
+.header {
+	width: 1000px;
+	background-color: #FFF;
+	height: 65px;
+	margin: 0 auto;
+}
+.headerlogo {
+	display: block;
+	padding-top: 20px;
+	padding-left: 60px
+}
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+.content {
+	width: 1000px;
+	margin: 0 auto
+}
+.footer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #CCC;
+	padding-top: 10px;
+	line-height: 1.5em;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.footer a:link {
+	color: #CCC;
+	text-decoration: none;
+}
+.footer a:visited {
+	color: #CCC;
+	text-decoration: none;
+}
+.footer a:hover, a:active, a:focus {
+	color: #FFF;
+	text-decoration: none;
+}
+.clearfloat {
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.productheader {
+	font-size: 26px;
+}
+.website {
+	font-size:20px
+}
+.mainheader {
+	font-size: 30px;
+	text-align: center;
+}
+.bgtop {
+	background-image:url("Images/bg-top.png");
+	height: 27px;
+}
+.bgbottom {
+	background-image:url("Images/bg-bottom.png");
+	height: 27px;
+	margin-bottom:25px
+}
+.homemain {
+	background-color:#FFF;
+	padding: 1px 30px 1px 30px;
+}
+#homepage-secondary {
+	background-color: #FFF;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 15px;
+	min-height: 340px
+}
+#grower {
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 290px;
+	font-size:14px;
+	float: left;
+	text-align:center;
+}
+#gardencenter {
+	padding-left: 20px;
+	padding-right: 15px;
+	width: 290px;
+	font-size:14px;
+	float:left;
+	text-align:center;
+	border-left:solid 1px #CCC
+}
+#mofumobi {
+	padding-left: 20px;
+	padding-right: 15px;
+	width: 290px;
+	font-size:14px;
+	float:left;
+	text-align:center;
+	border-left:solid 1px #CCC
+}
+#meet-team {
+	background-color: #FFF;
+	padding: 1px 35px 1px 35px;
+	font-size: 14px
+}
+.name {
+	font-weight:bold;
+	color: #060
+}
+#contact {
+	background-color:#FFF;
+	padding: 1px 30px 1px 30px
+}
+#map {
+	width: 425px;
+	float: right;
+}
+#contact-info {
+	width: 490px;
+}
+#left {
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 290px;
+	font-size:16px;
+	float: left;
+	text-align:center;
+	line-height: 1.4;
+}
+#center {
+	padding-left: 20px;
+	padding-right: 15px;
+	width: 290px;
+	font-size:16px;
+	float:left;
+	text-align:center;
+	border-left:solid 1px #CCC;
+	line-height: 1.4;
+}
+#right {
+	padding-left: 20px;
+	padding-right: 15px;
+	width: 290px;
+	font-size:16px;
+	float:left;
+	text-align:center;
+	border-left:solid 1px #CCC;
+	line-height: 1.4;
+}
+#puzzle {
+	text-align: center;
+	padding-top: 130px;
+	padding-bottom:15px
+}
+#newsletter {
+	background-color:#FFF;
+	padding: 1px 30px 1px 30px;
+	font-size:16px;
+}
+#about-background {
+	background-color: #FFF;
+	padding: 1px 35px 1px 35px;
+}
+#about-corebeliefs {
+	background-color: #FFF;
+	padding: 1px 35px 1px 35px;
+	font-size: 14px
+}
+
+/* FIXED CUSTOMER LOGIN */
+
+a.trigger{
+
+position: fixed;
+text-decoration: none;
+top: 250px; right: 0;
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+color:#fff;
+padding: 8px 20px 8px 20px;
+font-weight: 700;
+background:#FF8000;
+border:1px solid #444444;
+border-radius-topleft: 20px;
+border-top-left-radius: 20px;
+border-radius-bottomleft: 20px;
+border-bottom-left-radius: 20px;
+border-radius-bottomright: 0px;
+border-bottom-right-radius: 0px;
+display: block;
+}
+
+
+a.trigger:hover{
+position: fixed;
+text-decoration: none;
+top: 250px; right: 0;
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+color:#fff;
+padding: 8px 20px 8px 20px;
+font-weight: 700;
+background:#666666;
+border:1px solid #444444;
+border-radius-topleft: 20px;
+border-top-left-radius: 20px;
+border-radius-bottomleft: 20px;
+border-bottom-left-radius: 20px;
+border-radius-bottomright: 0px;
+border-bottom-right-radius: 0px;
+display: block;
+}
+/*TERMS & PRIVACY PAGES CSS BELOW*/
+
+
+.terms {
+	background-color:#FFF;
+	padding: 1px 30px 1px 30px;
+	font-size:12px
+}

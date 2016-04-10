@@ -1,0 +1,78 @@
+@media (max-width: 37.5em) {
+  .headerwrapper,
+  .content,
+  .header {
+    max-width: 100%;
+  }
+
+  .bgtop,
+  .bgbottom,
+  .content {
+    background: white;
+  }
+
+  #homepage-secondary {
+    padding-top: 2em;
+    padding-left: 0;
+  }
+
+  .homemain {
+    padding-top: 3em;
+  }
+
+  .content {
+    line-height: 2.1em;
+  }
+
+  .headerlogo {
+    position: absolute;
+    padding: 0;
+    top: 0.5em;
+    left: 50%;
+    transform: translateX(-50%);    
+  }
+
+  .footer {
+    padding: 2em 3em;
+    line-height: 2.1em;    
+  }
+
+  .bgbottom {
+    padding-bottom: 2em;    
+  }
+
+  a.trigger {
+    position: absolute;
+    top: 10em;
+  }
+
+  ul.MenuBarHorizontal {
+    width: 100%;
+    padding: 0;
+    float: none;
+    display: flex;
+  }
+
+  ul.MenuBarHorizontal li {
+    flex: 1;
+    padding: 0;
+  }
+
+  ul.MenuBarHorizontal a {
+    text-align: center;
+  }
+
+  #MenuBar1 {
+    padding-top: 3.3em !important;
+  }
+
+  #homepage-secondary > div {
+    float: none;
+    border-left: none;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    margin: 0 auto 4em;
+    padding-top: 1em;
+    border-radius: 0.6em;
+    box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.5);    
+  }
+}
