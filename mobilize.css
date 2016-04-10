@@ -41,7 +41,8 @@
     padding-bottom: 2em;    
   }
 
-  a.trigger {
+  a.trigger,
+  a.trigger:hover {
     position: absolute;
     top: 10em;
   }
